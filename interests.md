@@ -85,6 +85,18 @@ Format:
   - evidence: 2026-10-06
 - Verification harnesses for long-horizon agent output — strength: emerging
   - evidence: 2026-10-06
+- Eval suites as a CI merge gate for production agents — strength: emerging
+  - evidence: 2026-10-09
+- Small low-cost models for subagents, routing and compaction — strength: emerging
+  - evidence: 2026-10-09
+- Skill packaging: skill-bound tools and cache-safe skill loading — strength: emerging
+  - evidence: 2026-10-09
+- Code execution as the tool-calling layer (Codemode, MCP via scripts) — strength: emerging
+  - evidence: 2026-10-09
+- Evidence-before-action failures in tool-using agents — strength: emerging
+  - evidence: 2026-10-09
+- Small open multimodal embedding models for local RAG and code search — strength: emerging
+  - evidence: 2026-10-09
 
 ## Exploring (agent-maintained)
 
@@ -97,12 +109,15 @@ Format:
 
 - Agent security and real-world failure modes — adjacent
   - because: you follow agent permissions, reliability and failure modes; this is what happens when agents act on outside systems
-  - shown: 1, liked: 1
+  - shown: 2, liked: 2
 - How developer work changes with agents — wildcard
   - because: you like human-in-the-loop design; this is the human side of the same question
-  - shown: 1, liked: 1
+  - shown: 2, liked: 1
 - Cost and latency engineering for agents — adjacent
   - because: you like agent harness internals; routing models per task is a harness design decision with direct cost impact
+  - shown: 1, liked: 1
+- Cloud-native agent infrastructure — adjacent
+  - because: you liked the Claude Code cloud sessions guide and follow sandboxing and credential isolation; this applies the same idea to Kubernetes-style infrastructure
   - shown: 1, liked: 1
 
 ## Retired explorations
@@ -132,3 +147,14 @@ Format:
 - 2026-10-06: added exploring topic "How developer work changes with agents" (wildcard), shown 1, liked 1 (liked "Fragments: October 4")
 - 2026-10-06: added exploring topic "Cost and latency engineering for agents" (adjacent), shown 1, liked 1 (liked "How to Build a Model Router in the Harness")
 - 2026-10-06: recorded Not for me on "I stopped reviewing my agents' code" (orchestrator-worker, human-in-the-loop); one dislike, no profile change
+- 2026-10-10: added learned interest "Eval suites as a CI merge gate for production agents" at emerging (liked "How Snyk turned an internal support agent into a customer feature")
+- 2026-10-10: added learned interest "Small low-cost models for subagents, routing and compaction" at emerging (liked "Introducing Claude Haiku 5.5")
+- 2026-10-10: added learned interest "Skill packaging: skill-bound tools and cache-safe skill loading" at emerging (liked "Revamping Skills in Deep Agents")
+- 2026-10-10: added learned interest "Code execution as the tool-calling layer" at emerging (liked "What is Codemode")
+- 2026-10-10: added learned interest "Evidence-before-action failures in tool-using agents" at emerging (liked "From Evidence to Action: How Tool-Using Agents Fail")
+- 2026-10-10: added learned interest "Small open multimodal embedding models for local RAG and code search" at emerging (liked "EmbeddingGemma 2")
+- 2026-10-10: Agent security and real-world failure modes shown 2, liked 2 (liked "AdvSim2Real")
+- 2026-10-10: How developer work changes with agents shown 2, liked 1 (Not for me on "The model that didn't exist, so you made it yourself")
+- 2026-10-10: added exploring topic "Cloud-native agent infrastructure" (adjacent, new suggestion), shown 1, liked 1 (liked "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?")
+- 2026-10-10: recorded Not for me on "Skill Constellations" (agent skills supply chain, agent security); one dislike, no profile change
+- 2026-10-10: recalculated strengths; no learned interest has gone 30 days without likes, so no decay
